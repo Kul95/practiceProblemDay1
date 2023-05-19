@@ -18,6 +18,7 @@ public class PracticeProblem {
     public static void main(String[] args) {
         defaultValue();
         message1();
+        equalsMethod();
 
     }
     public static void message1(){
@@ -26,4 +27,9 @@ public class PracticeProblem {
         String str=sc.nextLine();
         System.out.println(str);
     }
+public static void equalsMethod(){
+        String str1="Kuldeep";
+        String str2="Kuldeep";
+    System.out.println(str1.equals(str2));
+}
 }
